@@ -149,10 +149,8 @@ paths:
           required: false
           description: Query using a bounding box for all events with datapoints that fall within. This uses two pairs of coordinates, the upper left hand corner (lon,lat) followed by the lower right hand corner (lon,lat). 
           schema:
-            type: array
-            items:
-              type: number
-              
+            type: string
+            
       responses:
         200: # status code
           description: A JSON object upon successful operation
